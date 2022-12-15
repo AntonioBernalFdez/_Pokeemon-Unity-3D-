@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3772172bac2c5e459b22826fb44b512, type: 3}
+  m_Name: 183-Marril
+  m_EditorClassIdentifier: 
+  ID: 183
+  name: Marrill
+  description: 
+  frontSprite: {fileID: 21300000, guid: 15029db5242bb9a498639e908aea5e23, type: 3}
+  backSprite: {fileID: 21300000, guid: 45e2ab3929d645e4eaeb45dbd267f087, type: 3}
+  type: 18
+  catchRate: 190
+  maxHp: 70
+  attack: 20
+  defense: 50
+  spAttack: 20
+  spDefense: 50
+  speed: 40
+  expBase: 58
+  growthRate: 1
+  learnableMoves:
+  - move: {fileID: 11400000, guid: 5b49a311b9392074984f9c0fdc6e23b0, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 37d82536d363e5a49af4aa1d84453af7, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 1aa4e6e54e45855418a34cca8c5a15a9, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 0020e08a2609d84468339335a2a9dc03, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: febe618219b920045a504e96fe8693f0, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: d33c5b5a1e917d347ac5e8ec669e0dcc, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: 439c3a9ecb97d9c428de04eaf4295266, type: 2}
+    level: 18
+  - move: {fileID: 11400000, guid: 91a6ce2c142ef7b42b02cac931930a34, type: 2}
+    level: 22

@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3772172bac2c5e459b22826fb44b512, type: 3}
+  m_Name: 005-Charmeleon
+  m_EditorClassIdentifier: 
+  ID: 5
+  name: Charmeleon
+  description: "Por Naturaleza, se acalora con facilidad: siempre est\xE1 buscando
+    enemigos. Solo se calma cuando gana."
+  frontSprite: {fileID: 21300000, guid: c0fc644f75f555e4e981309bba0b4270, type: 3}
+  backSprite: {fileID: 21300000, guid: 526019210273ef542b5fd0ca3375225f, type: 3}
+  type: 7
+  catchRate: 45
+  maxHp: 58
+  attack: 64
+  defense: 58
+  spAttack: 80
+  spDefense: 65
+  speed: 80
+  expBase: 140
+  growthRate: 3
+  learnableMoves:
+  - move: {fileID: 11400000, guid: 87d02366eea9ac64e855c7b23e7e2433, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 4a63e88f34fb42443a39e1b5cb77cc5f, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: 4336c27e34213ed4e816a475b184297f, type: 2}
+    level: 14
+  - move: {fileID: 11400000, guid: 809782f5b93a4414fb50177567752214, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: e67dbd2bd4de39f4cb17661b39c5496c, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 88b17b9557c2d964bb550b5add47d153, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: 6597059ff868f574f94bdcada3683fbf, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: 4d3b6a1ef86bc1a4293d568e12ed3886, type: 2}
+    level: 25

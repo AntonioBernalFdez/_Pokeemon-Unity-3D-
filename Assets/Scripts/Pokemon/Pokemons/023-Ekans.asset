@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3772172bac2c5e459b22826fb44b512, type: 3}
+  m_Name: 023-Ekans
+  m_EditorClassIdentifier: 
+  ID: 23
+  name: Ekans
+  description: 
+  frontSprite: {fileID: 21300000, guid: 93e72c74dd2ba274e94679b54018d902, type: 3}
+  backSprite: {fileID: 21300000, guid: 68b3d830815e1b449a07b453b5c20014, type: 3}
+  type: 14
+  catchRate: 255
+  maxHp: 35
+  attack: 60
+  defense: 44
+  spAttack: 40
+  spDefense: 54
+  speed: 55
+  expBase: 58
+  growthRate: 2
+  learnableMoves:
+  - move: {fileID: 11400000, guid: 5b49a311b9392074984f9c0fdc6e23b0, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 37d82536d363e5a49af4aa1d84453af7, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: af1eda8b2b8d9044a80ebc48d5173a59, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: febe618219b920045a504e96fe8693f0, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: 77b804467f90b21439e50ae0747a3f14, type: 2}
+    level: 12
+  - move: {fileID: 11400000, guid: d53da120112e28947bb7ead8594c5717, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 8ae2dcb448aa8974eae31693ca7a96d7, type: 2}
+    level: 19

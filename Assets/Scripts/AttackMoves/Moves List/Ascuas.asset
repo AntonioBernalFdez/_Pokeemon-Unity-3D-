@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d168384c7db9d498996fa15ce84c4e, type: 3}
+  m_Name: Ascuas
+  m_EditorClassIdentifier: 
+  name: Ascuas
+  description: "Ataca con llamas peque\xF1as que pueden causar quemaduras."
+  ParticleSystem: {fileID: 1315652351025849637, guid: 2d2bde6784024844aae9a7251b263246, type: 3}
+  type: 7
+  power: 45
+  accuracy: 100
+  pp: 25
+  priority: 0
+  alwaysHit: 0
+  moveType: 1
+  effects:
+    boostings: []
+    status: 0
+    volatileStatus: 0
+  secondaryEffects:
+  - boostings: []
+    status: 1
+    volatileStatus: 0
+    chance: 10
+    target: 1
+  target: 1

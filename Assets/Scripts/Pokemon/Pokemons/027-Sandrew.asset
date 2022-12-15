@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3772172bac2c5e459b22826fb44b512, type: 3}
+  m_Name: 027-Sandrew
+  m_EditorClassIdentifier: 
+  ID: 27
+  name: Sandrew
+  description: 
+  frontSprite: {fileID: 21300000, guid: cb8456c0bb6ab2e48b45363aa9cba0b4, type: 3}
+  backSprite: {fileID: 21300000, guid: 13101072d7043db4f8b09fed647849ba, type: 3}
+  type: 11
+  catchRate: 255
+  maxHp: 50
+  attack: 75
+  defense: 85
+  spAttack: 20
+  spDefense: 30
+  speed: 40
+  expBase: 60
+  growthRate: 2
+  learnableMoves:
+  - move: {fileID: 11400000, guid: 7f5b6483cd97a0846b5d30f187b90b95, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: b74ca4f4ca6ed0b45af3c46881b18bd6, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: af1eda8b2b8d9044a80ebc48d5173a59, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: a57b224b435caa442b1b014b29b6b063, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: 6597059ff868f574f94bdcada3683fbf, type: 2}
+    level: 14
+  - move: {fileID: 11400000, guid: 6e8ac251b3114674191511d748e4a6d0, type: 2}
+    level: 18

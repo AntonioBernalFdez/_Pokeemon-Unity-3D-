@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3772172bac2c5e459b22826fb44b512, type: 3}
+  m_Name: 185-Sudowoodo
+  m_EditorClassIdentifier: 
+  ID: 185
+  name: Sudowoodo
+  description: 
+  frontSprite: {fileID: 21300000, guid: d49d7ac90cd92c649b935601e8ce2521, type: 3}
+  backSprite: {fileID: 21300000, guid: 8382ed5778a2ed543bd73f55cf682479, type: 3}
+  type: 16
+  catchRate: 65
+  maxHp: 70
+  attack: 100
+  defense: 115
+  spAttack: 30
+  spDefense: 65
+  speed: 30
+  expBase: 135
+  growthRate: 2
+  learnableMoves:
+  - move: {fileID: 11400000, guid: 4497f45f4da84414388036a23f99c8e1, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 65d2330fc81c1ff469312f08193c437e, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: 52b288279caef134784e608ca6d7ccce, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 89847946caca6924daf181dc7cb1830e, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: 56f65dcb8d615174891f3968878eaa77, type: 2}
+    level: 18
+  - move: {fileID: 11400000, guid: f30a4b10521ad4d4b9101747199310e1, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: 59ab548653d00654d93b8779c6c5bfab, type: 2}
+    level: 23

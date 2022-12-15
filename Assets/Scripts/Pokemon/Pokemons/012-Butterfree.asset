@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3772172bac2c5e459b22826fb44b512, type: 3}
+  m_Name: 012-Butterfree
+  m_EditorClassIdentifier: 
+  ID: 12
+  name: Butterfree
+  description: Pokemon polilla
+  frontSprite: {fileID: 21300000, guid: 6cf136c3fd7933b4582aa1535d6fa4bb, type: 3}
+  backSprite: {fileID: 21300000, guid: d02eed843fcaf2644adb86a44fc311e2, type: 3}
+  type: 1
+  catchRate: 45
+  maxHp: 78
+  attack: 84
+  defense: 78
+  spAttack: 109
+  spDefense: 85
+  speed: 100
+  expBase: 160
+  growthRate: 2
+  learnableMoves:
+  - move: {fileID: 11400000, guid: 762361e64522ce14d9705001e49e973e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4eee44789bc4a4745a1e3062fd382670, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 1b4195d30dbc9cf4f89167933d903524, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: afe421a486b57714ea636b99ee2bfd52, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 2e1e5793ef04cce4d99ea342fc98a60e, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 6708294fea38fe14cb8185c6766184bd, type: 2}
+    level: 18
+  - move: {fileID: 11400000, guid: 0192f6515d30baa4fab5c45f29b5a439, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: dca83b4b6187a4e4c91ea96f72ffb434, type: 2}
+    level: 25

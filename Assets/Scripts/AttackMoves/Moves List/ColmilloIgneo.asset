@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d168384c7db9d498996fa15ce84c4e, type: 3}
+  m_Name: ColmilloIgneo
+  m_EditorClassIdentifier: 
+  name: Colmillo Igneo
+  description: 
+  ParticleSystem: {fileID: 198796712453205768, guid: b0bc1b6b391734647b9bb142bafc0819, type: 3}
+  type: 7
+  power: 65
+  accuracy: 95
+  pp: 15
+  priority: 0
+  alwaysHit: 0
+  moveType: 0
+  effects:
+    boostings: []
+    status: 0
+    volatileStatus: 0
+  secondaryEffects:
+  - boostings: []
+    status: 1
+    volatileStatus: 0
+    chance: 10
+    target: 1
+  target: 1

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3772172bac2c5e459b22826fb44b512, type: 3}
+  m_Name: 163-Hoothoot
+  m_EditorClassIdentifier: 
+  ID: 163
+  name: Hoothoot
+  description: 
+  frontSprite: {fileID: 21300000, guid: 20c276808c06e8f4f881f7d3280585cb, type: 3}
+  backSprite: {fileID: 21300000, guid: 310086eec80e0ae4c8835a539a37984d, type: 3}
+  type: 8
+  catchRate: 255
+  maxHp: 60
+  attack: 30
+  defense: 30
+  spAttack: 36
+  spDefense: 56
+  speed: 50
+  expBase: 60
+  growthRate: 2
+  learnableMoves:
+  - move: {fileID: 11400000, guid: 69f6e0d2dd4ad53458769faec66be166, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 848c5bfe42d484f478310a24668cf49d, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: d423b865a6d80e54b984c2a5ea7eafc2, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 2e1e5793ef04cce4d99ea342fc98a60e, type: 2}
+    level: 7

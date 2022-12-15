@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3772172bac2c5e459b22826fb44b512, type: 3}
+  m_Name: 075-Graveler
+  m_EditorClassIdentifier: 
+  ID: 75
+  name: Graveler
+  description: 
+  frontSprite: {fileID: 21300000, guid: b6f3ada2d20943048920b5370dcae9eb, type: 3}
+  backSprite: {fileID: 21300000, guid: f372fb46cfd0f1c4489169497081c4d0, type: 3}
+  type: 16
+  catchRate: 3000
+  maxHp: 55
+  attack: 95
+  defense: 115
+  spAttack: 45
+  spDefense: 45
+  speed: 35
+  expBase: 134
+  growthRate: 3
+  learnableMoves:
+  - move: {fileID: 11400000, guid: 65d2330fc81c1ff469312f08193c437e, type: 2}
+    level: 8

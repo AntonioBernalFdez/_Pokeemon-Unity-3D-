@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3772172bac2c5e459b22826fb44b512, type: 3}
+  m_Name: 077-Ponyta
+  m_EditorClassIdentifier: 
+  ID: 77
+  name: ponyta
+  description: 
+  frontSprite: {fileID: 21300000, guid: d418bed29a4b09f49ac4dfffa36cada5, type: 3}
+  backSprite: {fileID: 21300000, guid: d9c3e68eff88aea4b8d578d5084af2d5, type: 3}
+  type: 7
+  catchRate: 190
+  maxHp: 50
+  attack: 85
+  defense: 55
+  spAttack: 65
+  spDefense: 65
+  speed: 90
+  expBase: 152
+  growthRate: 2
+  learnableMoves:
+  - move: {fileID: 11400000, guid: 5b49a311b9392074984f9c0fdc6e23b0, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 69f6e0d2dd4ad53458769faec66be166, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 37d82536d363e5a49af4aa1d84453af7, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 87d02366eea9ac64e855c7b23e7e2433, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: 88b17b9557c2d964bb550b5add47d153, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 4c828dc20d446794e9bcb6033eda95c4, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 4336c27e34213ed4e816a475b184297f, type: 2}
+    level: 18
+  - move: {fileID: 11400000, guid: 4d3b6a1ef86bc1a4293d568e12ed3886, type: 2}
+    level: 25

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3772172bac2c5e459b22826fb44b512, type: 3}
+  m_Name: 058-Growlithe
+  m_EditorClassIdentifier: 
+  ID: 58
+  name: Growlithe
+  description: 
+  frontSprite: {fileID: 21300000, guid: 3b58e0885782de64fa39a4993d2fc25d, type: 3}
+  backSprite: {fileID: 21300000, guid: 06a7de6d278ef0e4db4d024949c373c3, type: 3}
+  type: 7
+  catchRate: 190
+  maxHp: 55
+  attack: 70
+  defense: 45
+  spAttack: 70
+  spDefense: 50
+  speed: 60
+  expBase: 91
+  growthRate: 4
+  learnableMoves:
+  - move: {fileID: 11400000, guid: 7f5b6483cd97a0846b5d30f187b90b95, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e67dbd2bd4de39f4cb17661b39c5496c, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 87d02366eea9ac64e855c7b23e7e2433, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 88b17b9557c2d964bb550b5add47d153, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: febe618219b920045a504e96fe8693f0, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 4336c27e34213ed4e816a475b184297f, type: 2}
+    level: 18
+  - move: {fileID: 11400000, guid: 4d3b6a1ef86bc1a4293d568e12ed3886, type: 2}
+    level: 25

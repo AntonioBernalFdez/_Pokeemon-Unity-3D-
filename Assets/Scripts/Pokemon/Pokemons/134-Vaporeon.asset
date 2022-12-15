@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3772172bac2c5e459b22826fb44b512, type: 3}
+  m_Name: 134-Vaporeon
+  m_EditorClassIdentifier: 
+  ID: 134
+  name: Vaporeon
+  description: 
+  frontSprite: {fileID: 21300000, guid: c848cb102e1b0ae4c90ab7b0526e1542, type: 3}
+  backSprite: {fileID: 21300000, guid: de2494e880a1822409fd0e5ad5f8bf57, type: 3}
+  type: 18
+  catchRate: 45
+  maxHp: 65
+  attack: 65
+  defense: 60
+  spAttack: 110
+  spDefense: 95
+  speed: 130
+  expBase: 196
+  growthRate: 2
+  learnableMoves:
+  - move: {fileID: 11400000, guid: 0020e08a2609d84468339335a2a9dc03, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: 067a354a50ebb4b49ae896f2089556d1, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: febe618219b920045a504e96fe8693f0, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 439c3a9ecb97d9c428de04eaf4295266, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: d826bfc3c277e93469422c64f44dc373, type: 2}
+    level: 14
+  - move: {fileID: 11400000, guid: d33c5b5a1e917d347ac5e8ec669e0dcc, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: 91a6ce2c142ef7b42b02cac931930a34, type: 2}
+    level: 25

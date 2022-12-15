@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d168384c7db9d498996fa15ce84c4e, type: 3}
+  m_Name: Rayo
+  m_EditorClassIdentifier: 
+  name: Rayo
+  description: 
+  ParticleSystem: {fileID: 6121763392990547468, guid: 64beef2bbf0cc224985a86f39154b844, type: 3}
+  type: 4
+  power: 90
+  accuracy: 100
+  pp: 15
+  priority: 0
+  alwaysHit: 0
+  moveType: 1
+  effects:
+    boostings: []
+    status: 0
+    volatileStatus: 0
+  secondaryEffects:
+  - boostings: []
+    status: 3
+    volatileStatus: 0
+    chance: 10
+    target: 1
+  target: 1

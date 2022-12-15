@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3772172bac2c5e459b22826fb44b512, type: 3}
+  m_Name: 135-Jolteon
+  m_EditorClassIdentifier: 
+  ID: 135
+  name: Jolteon
+  description: 
+  frontSprite: {fileID: 21300000, guid: 06f115a5e27b9ee4cb5b480f384067bc, type: 3}
+  backSprite: {fileID: 21300000, guid: 152fccdd8d972624492c70574025427a, type: 3}
+  type: 4
+  catchRate: 45
+  maxHp: 65
+  attack: 65
+  defense: 60
+  spAttack: 130
+  spDefense: 110
+  speed: 130
+  expBase: 197
+  growthRate: 2
+  learnableMoves:
+  - move: {fileID: 11400000, guid: 33104fd46d67cc543ae4b7e5870b7304, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: c89c41d5abbacb04dab6d73f53802ef3, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 067a354a50ebb4b49ae896f2089556d1, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 6c96095f3f30dc5448116912a3f995c2, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: 64dada98124cef94fb858b9ea386739a, type: 2}
+    level: 22

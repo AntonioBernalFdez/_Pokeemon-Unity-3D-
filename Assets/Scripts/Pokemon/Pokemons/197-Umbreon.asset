@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3772172bac2c5e459b22826fb44b512, type: 3}
+  m_Name: 197-Umbreon
+  m_EditorClassIdentifier: 
+  ID: 197
+  name: Umbreon
+  description: 
+  frontSprite: {fileID: 21300000, guid: 20ecbcbec8f151f4db172fadd1d175c8, type: 3}
+  backSprite: {fileID: 21300000, guid: 4057c68ce33aaa3449c135f757e77c5f, type: 3}
+  type: 2
+  catchRate: 45
+  maxHp: 95
+  attack: 65
+  defense: 110
+  spAttack: 60
+  spDefense: 130
+  speed: 65
+  expBase: 199
+  growthRate: 2
+  learnableMoves:
+  - move: {fileID: 11400000, guid: 5b49a311b9392074984f9c0fdc6e23b0, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 37d82536d363e5a49af4aa1d84453af7, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: b74ca4f4ca6ed0b45af3c46881b18bd6, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 6d5635d935dcfd7449bb021878122716, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: 067a354a50ebb4b49ae896f2089556d1, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 7c9d33aa9186cd640adc24c62617376f, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 52b288279caef134784e608ca6d7ccce, type: 2}
+    level: 18
+  - move: {fileID: 11400000, guid: 77b804467f90b21439e50ae0747a3f14, type: 2}
+    level: 20

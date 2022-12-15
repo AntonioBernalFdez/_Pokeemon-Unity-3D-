@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3772172bac2c5e459b22826fb44b512, type: 3}
+  m_Name: 224-Octillery
+  m_EditorClassIdentifier: 
+  ID: 224
+  name: Octillery
+  description: 
+  frontSprite: {fileID: 21300000, guid: d875826849108e3458bcc890386d15c9, type: 3}
+  backSprite: {fileID: 21300000, guid: 463028aaf876d4647a4e1eaf9d6bd32e, type: 3}
+  type: 18
+  catchRate: 75
+  maxHp: 75
+  attack: 105
+  defense: 75
+  spAttack: 105
+  spDefense: 75
+  speed: 45
+  expBase: 164
+  growthRate: 2
+  learnableMoves:
+  - move: {fileID: 11400000, guid: 4a63e88f34fb42443a39e1b5cb77cc5f, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: 1aa4e6e54e45855418a34cca8c5a15a9, type: 2}
+    level: 10
